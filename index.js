@@ -1,29 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-
-/**
-Challenge: 
-
-- Move the `footer` into its own component called "Footer" 
-  and render that component inside the Page component.
-- Move the `h1` and `ol` together into another component
-  called "MainContent" and render inside Page as well.
-*/
-
-function Header() {
-    return (
-        <header>
-            <nav className="nav">
-                <img src="./react-logo.png" width="40px" />
-                <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>
-    )
-}
+import Header from "./Header"
 
 
 function MainContent(){
